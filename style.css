@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Base styles */
+body{
+    font-family:  Montserrat;
+    background-color: hsl(240, 100%, 90%);
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+/* header */
+
+.head{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.head h1{
+    margin: 20px 0;
+}
+
+.head .toggle{
+    display: flex;
+    justify-content: center;
+}
+
+.toggle h3{
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/*----- card ------*/
+
+.card-container{
+    
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 0px;
+    height: 100%;
+    width: 330px;
+    justify-content: center;
+    text-align: center;
+    /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); */ 
+}
+
+.special{
+    background-color: rgba(75, 75, 216, 0.596);
+    color: #fff;
+    /* height: 500px; */
+}
+
+.special .btn{
+    border: none;
+    background-color: #fff;
+    color:rgba(75, 75, 216, 0.596) ;
+}
+
+.card h3{
+    padding: 5px;
+}
+.card h1{
+    padding: 20px;
+    font-size: 60px;
+}
+
+.card li{
+    padding: 15px;
+    margin: 5px;
+    border-bottom: 1px solid;
+}
+
+.card .font{
+    border-top: 1px solid;
+}
+
+
+
+/*------ Link button ----- */
+
+a{
+    text-decoration: none;
+}
+
+a.btn{
+    display: inline-block;
+    padding: 10px 70px;
+    margin: 20px 0;
+    margin-bottom: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(24, 24, 236, 0.61);
+    border-radius: 5px;
+}
+
