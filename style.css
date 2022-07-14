@@ -66,13 +66,14 @@ ul li{
 .special{
     background-color: rgba(75, 75, 216, 0.596);
     color: #fff;
-    /* height: 500px; */
+    /* height: 480px; */
 }
 
 .special .btn{
     border: none;
     background-color: #fff;
     color:rgba(75, 75, 216, 0.596) ;
+    /* margin-bottom: 40px; */
 }
 
 .card h3{
@@ -119,3 +120,9 @@ a.btn{
    border: 1px solid rgba(24, 24, 236, 0.61) ;
 }
 
+.special .btn:hover{
+   background-color: inherit;
+   color: #fff;
+   border: 1px solid #fff;
+
+}
