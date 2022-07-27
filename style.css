@@ -56,7 +56,7 @@ ul li{
     padding: 5px;
     border-radius: 50% ;
     background-color: #fff;
-    transition: transform 0.1s linear;
+    transition: transform 0.2s linear;
 }
 
 .checkbox{
